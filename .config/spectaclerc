@@ -1,0 +1,15 @@
+[Annotations]
+annotationToolType=3
+highlighterStrokeColor=0,0,0
+rectangleStrokeColor=170,0,0
+
+[GuiConfig]
+captureMode=4
+
+[ImageSave]
+lastImageSaveAsLocation=file:///home/jack/Pictures/FE Awakening Pairings.png
+lastImageSaveLocation=file:///home/jack/Pictures/Screenshots/Screenshot_20250803_153510.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

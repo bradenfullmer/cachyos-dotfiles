@@ -1,0 +1,25 @@
+directory: /opt/music/
+library: /opt/music/beetslibrary.db
+
+import:
+  move: yes
+  write: yes
+  autotag: yes
+  copy: no
+  resume: ask
+  incremental: yes
+  quiet_fallback: skip
+  timid: yes
+
+plugins: fetchart embedart lastgenre
+fetchart:
+  auto: yes
+  sources: coverart itunes amazon
+  enforce_ratio: yes
+  minwidth: 500
+  maxwidth: 2000
+
+embedart:
+  auto: yes
+  remove_art_file: yes
+
